@@ -31,6 +31,8 @@ alpha-vantage = "^2.3.1"
 pandas-datareader = "^0.10.0"
 pandas-ta = "^0.3.14-beta.0"
 TA-Lib = "^0.4.24"
+Backtesting = "^0.3.3"
+backtrader = "^1.9.76"
 
 
 [tool.poetry.dev-dependencies]
