@@ -10,6 +10,27 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/Ritvikmath/ice_cream.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/Ritvikmath/ice_cream_interest.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/Ritvikmath/ice_cream_vs_heater.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/Ritvikmath/original_series.csv">
           <value>
             <Attribute>
