@@ -38,6 +38,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/UdacityProjects/Project 2: Breakout Stratergy/a.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>

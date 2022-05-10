@@ -1,5 +1,4 @@
 import helper
-import scipy.stats
 from colour import Color
 import numpy as np
 import pandas as pd
@@ -199,7 +198,8 @@ def plot_signal_histograms(signal_list, title, subplot_titles):
     x_range = [all_values.min(), all_values.max()]
     y_range = [0, 1500]
     config = helper.generate_config()
-    colors = Color(helper.color_scheme['low_value']).range_to(Color(helper.color_scheme['high_value']), len(signal_series_list))
+    colors = Color(helper.color_scheme['low_value']).range_to(Color(
+        helper.color_scheme['high_value']), len(signal_series_list))
 
     fig = py.tools.make_subplots(rows=1, cols=len(signal_series_list), subplot_titles=subplot_titles, print_grid=False)
     fig['layout'].update(title=title, showlegend=False)
